@@ -1,4 +1,4 @@
-System.register("chunks:///_virtual/AppConfig.ts",["cc"],(function(t){var e;return{setters:[function(t){e=t.cclegacy}],execute:function(){e._RF.push({},"b6157x7PwVCGa+6J4XibyC0","AppConfig",void 0);var p=t("ENV","prod");t("appConfig",{dev:{baseURL:"http://127.0.0.1:8080"},test:{baseURL:"http://chess.play.com"},prod:{baseURL:"http://chess.halo-dev.org"}}[p]);e._RF.pop()}}}));
+System.register("chunks:///_virtual/AppConfig.ts",["cc"],(function(o){var e;return{setters:[function(o){e=o.cclegacy}],execute:function(){e._RF.push({},"b6157x7PwVCGa+6J4XibyC0","AppConfig",void 0);var t=o("ENV","prod"),c={dev:{baseURL:"://127.0.0.1:8080"},test:{baseURL:"http://chess.play.com"},prod:{baseURL:window.location.protocol+"//chess.halo-dev.org"}};o("appConfig",c[t]);e._RF.pop()}}}));
 
 System.register("chunks:///_virtual/AuthApi.ts",["cc","./Http.ts"],(function(t){var n,u;return{setters:[function(t){n=t.cclegacy},function(t){u=t.Http}],execute:function(){n._RF.push({},"ca674nZiGxOW4pdaHRTpPwd","AuthApi",void 0);t("AuthApi",function(){function t(){}return t.guestLogin=function(){return u.post("/api/auth/guest")},t}());n._RF.pop()}}}));
 
